@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"lib": ["ES5"],
+		"allowJs": false,
+		"strict": true,
+		"esModuleInterop": false,
+		"outDir": "build",
+		"rootDir": "src",
+		"typeRoots": ["node_modules"],
+		"skipLibCheck": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "build"]
+}
